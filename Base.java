@@ -6,5 +6,10 @@ public class Base {
     char grade = "A";
     double salary= 245000.00
     boolean isStudent = true;
+
+    System.out.println(age);
+    System.out.println(salary);
+    System.out.println(grade);
+    System.out.println(isStudent);
   }
 }
