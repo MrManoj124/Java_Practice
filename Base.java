@@ -1,4 +1,7 @@
 //Create a basic code 
+import java.util.Scanner;
+
+
 public class Base {
   public static void main(String[] args) {
     String name = "Manoj"
