@@ -14,5 +14,10 @@ public class Base {
     System.out.println(salary);
     System.out.println(grade);
     System.out.println(isStudent);
+
+
+    //Identifiers
+    int minutesPerhour = 60;
+    
   }
 }
