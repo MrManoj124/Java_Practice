@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Base {
   public static void main(String[] args) {
-    String name = "Manoj"
+    String name = "Manoj";
     int age = 24;
     char grade = "A";
-    double salary= 245000.00
+    double salary= 245000.00;
     boolean isStudent = true;
 
     System.out.println(age);
@@ -20,9 +20,15 @@ public class Base {
     int minutesPerhour = 60;
 
 
-    // Invalid identifiers:
-int 2ndNumber = 5;  // Cannot start with a digit
-int my var = 10;    // Cannot contain spaces
-int int = 20;       // Cannot use reserved keywords
-  }
+// Invalid identifiers:
+//int 2ndNumber = 5;  // Cannot start with a digit
+//int my var = 10;    // Cannot contain spaces
+//int int = 20;       // Cannot use reserved keywords
+  
+
+//<--Constants(Use Final KeyWord)-->
+final int MyNum = 15;
+myNum = 20;  //Error: cannot assign a value to final variable 'myNum'
+
+}
 }
