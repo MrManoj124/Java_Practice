@@ -49,7 +49,8 @@ public class Base {
     System.out.println("Enter your grade : ");
     System.out.println("Enter your salary : ");
 
-    String name = 
+    String name = sc.nextLine();
+    
 
   }
 }
