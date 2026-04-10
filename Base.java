@@ -79,6 +79,11 @@ public class Base {
     //variable Scope
     int globalVar = 100; // Global Variable
 
+    {
+      int locarVar = 50; // create a local variable
+      System.out.println("Global ")
+    }
+
   }
 }
 
