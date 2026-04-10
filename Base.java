@@ -51,16 +51,13 @@ public class Base {
     int age = sc.nextInt();
 
     System.out.println("Enter your grade : ");
-
+    char grade = sc.next().charAt(0);
 
     System.out.println("Enter your salary : ");
-    
-
-
-    
-    char grade = sc.next().charAt(0);
     double salary = sc.nextDouble();
 
+
+    
     System.out.println("Name : " + name);
     System.out.println("Age : "+ age);
     System.out.println("Grade : " + grade);
