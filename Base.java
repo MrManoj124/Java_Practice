@@ -45,12 +45,19 @@ public class Base {
   {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your name : ");
-    System.out.println("Enter your age : ");
-    System.out.println("Enter your grade : ");
-    System.out.println("Enter your salary : ");
-
     String name = sc.nextLine();
+
+    System.out.println("Enter your age : ");
     int age = sc.nextInt();
+
+    System.out.println("Enter your grade : ");
+
+
+    System.out.println("Enter your salary : ");
+    
+
+
+    
     char grade = sc.next().charAt(0);
     double salary = sc.nextDouble();
 
@@ -58,6 +65,9 @@ public class Base {
     System.out.println("Age : "+ age);
     System.out.println("Grade : " + grade);
     System.out.println("Salary : " + salary);
+
+    
+
   }
 }
 
