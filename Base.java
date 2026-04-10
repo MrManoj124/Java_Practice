@@ -75,6 +75,10 @@ public class Base {
     x = y = z = 60;
     System.out.println(x + y + z);
 
+
+    //variable Scope
+    int globalVar = 100; // Global Variable
+
   }
 }
 
