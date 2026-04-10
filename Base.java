@@ -81,7 +81,9 @@ public class Base {
 
     {
       int locarVar = 50; // create a local variable
-      System.out.println("Global ")
+      System.out.println("Global variable : " + globarVar);
+      System.out.println("Local Variable : " + localVar);
+      
     }
 
   }
