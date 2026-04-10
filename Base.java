@@ -100,7 +100,10 @@ public class Base {
     final int myCar = 1;
     // myCar = 2; //Error : Cannot assign a value to final variable 'myCar'
 
-    
+    //Java Constants mainly use to define values that should not change throughput the program, such as mathematical constants 
+
+
+      
   }
 }
 
