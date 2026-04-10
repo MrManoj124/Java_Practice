@@ -51,6 +51,8 @@ public class Base {
 
     String name = sc.nextLine();
     int age = sc.nextInt();
+    char grade = sc.next().charAt(0);
+    
 
   }
 }
