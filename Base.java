@@ -37,6 +37,11 @@ myNum = 20;  //Error: cannot assign a value to final variable 'myNum'
 //Create a class for user input 
 import java.util.Scanner;
 
+// for this practice first create a class and 
+// then create a main method and then create an object of the Scanner class to take input from the user and print the data
 
+public class Base {
+  
+}
 
 
