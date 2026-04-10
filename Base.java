@@ -70,6 +70,11 @@ public class Base {
     System.out.println("x + y + z = " + (x+y+z));
     
 
+    //One value to Multiple variables
+    int x, y, z;
+    x = y = z = 60;
+    System.out.println(x + y + z);
+
   }
 }
 
