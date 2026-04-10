@@ -94,6 +94,13 @@ public class Base {
     //int 2ndNumber = 5; // Invalid Identifier : Cannot start with a digit
     // int my var = 10; //Invalid Identifier : Cannot contain spaces
     // int int = 20; // Invalid Identifier : Cannot use reserved keywords
+
+
+    //Java Constants
+    final int myCar = 1;
+    // myCar = 2; //Error : Cannot assign a value to final variable 'myCar'
+
+    
   }
 }
 
