@@ -56,13 +56,18 @@ public class Base {
     System.out.println("Enter your salary : ");
     double salary = sc.nextDouble();
 
-
-    
+    System.out.println("\n--- User Details ---");
     System.out.println("Name : " + name);
     System.out.println("Age : "+ age);
     System.out.println("Grade : " + grade);
     System.out.println("Salary : " + salary);
 
+    sc.close();
+
+
+    //print multi variables
+    int x = 10, y=20, z=30;
+    System.out.println("x + y + z = " + (x+y+z));
     
 
   }
