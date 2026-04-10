@@ -83,9 +83,17 @@ public class Base {
       int locarVar = 50; // create a local variable
       System.out.println("Global variable : " + globarVar);
       System.out.println("Local Variable : " + localVar);
-      
-    }
 
+    }
+    // System.out.println("Global variable : " + globarVar); // Accessible
+    // System.out.println("Local Variable : " + localVar); // Error: localVar is not accessible outside the block
+
+
+    //Java Identifiers
+    int pagesPerBook = 300; //Valid Identifier
+    //int 2ndNumber = 5; // Invalid Identifier : Cannot start with a digit
+    // int my var = 10; //Invalid Identifier : Cannot contain spaces
+    // int int = 20; // Invalid Identifier : Cannot use reserved keywords
   }
 }
 
