@@ -50,7 +50,7 @@ public class Base {
     System.out.println("Enter your salary : ");
 
     String name = sc.nextLine();
-    
+    int age = sc.nextInt();
 
   }
 }
