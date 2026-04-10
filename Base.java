@@ -54,8 +54,10 @@ public class Base {
     char grade = sc.next().charAt(0);
     double salary = sc.nextDouble();
 
-    
-
+    System.out.println("Name : " + name);
+    System.out.println("Age : "+ age);
+    System.out.println("Grade : " + grade);
+    System.out.println("Salary : " + salary);
   }
 }
 
