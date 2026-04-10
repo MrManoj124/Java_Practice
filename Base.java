@@ -1,5 +1,5 @@
 //Create a basic code 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 
 public class Base {
@@ -32,3 +32,10 @@ myNum = 20;  //Error: cannot assign a value to final variable 'myNum'
 
 }
 }
+*/
+
+//Create a class for user input 
+import java.util.Scanner;
+
+
+
